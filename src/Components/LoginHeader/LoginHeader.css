@@ -1,0 +1,20 @@
+.login-header {
+    background-color: var(--soft-green);
+    color: black;
+    transition: var(--main-transition);
+    transform: translateX(100%);
+}
+
+.login-header-show {
+    transform: translateX(0);
+}
+
+.login-header label {
+    font-weight: 100;
+}
+
+@media (max-width :899px) {
+    .login-header {
+        width: 60%;
+    }
+}

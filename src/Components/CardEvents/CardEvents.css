@@ -1,0 +1,22 @@
+.Events-icon {
+    position: absolute;
+    color: white;
+    font-size: 40px;
+    background-color: var(--soft-color);
+    padding: 15px;
+    border-radius: 50%;
+    opacity: 0;
+    transition: var(--main-transition);
+}
+
+.Events-icon:hover {
+    opacity: 1;
+}
+
+.image-wrapper-events:hover .Events-icon {
+    opacity: 1;
+}
+
+.card-data-container {
+    background-color: var(--soft-green);
+}

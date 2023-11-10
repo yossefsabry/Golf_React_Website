@@ -1,0 +1,29 @@
+:root {
+    --main-padding-container: 8rem;
+    --soft-color: #f2cc8f;
+    --hover-color: #e07a5f;
+    --second-bg: #3d405b;
+    --color-white: #ffff;
+    --soft-green: #81b29a;
+    --soft-pink: #f4f1de;
+    --dark-color: #0000;
+    --p-color: #717275;
+    --main-transition: all .3s;
+}
+
+@media (max-width: 1000px) {
+    :root {
+        --main-padding-container: 3rem;
+    }
+}
+
+@media (max-width: 779px) {
+    :root {
+        --main-padding-container: 1rem;
+    }
+}
+
+input {
+    color: black;
+    outline: none;
+}

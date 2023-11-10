@@ -1,0 +1,46 @@
+footer .wrapper {
+    padding: 1rem var(--main-padding-container);
+}
+
+footer {
+    margin-top: 4rem;
+}
+
+footer .logo img {
+    width: 55px;
+    height: 63px;
+}
+
+footer input,
+footer textarea {
+    border: 1px solid #acacac;
+    padding: 15px 30px;
+    border-radius: 40px;
+    transition: var(--main-transition);
+}
+
+footer input:hover,
+footer textarea:hover {
+    border: 1px solid #4d4c4c;
+}
+
+footer input:focus,
+footer textarea:focus {
+    border: 1px solid #4d4c4c;
+}
+
+footer textarea {
+    height: 200px;
+    outline: none;
+}
+
+footer .image-map {
+    width: 500px;
+    max-width: 800px;
+}
+
+@media (max-width: 779px) {
+    footer .image-map {
+        width: 100%;
+    }
+}

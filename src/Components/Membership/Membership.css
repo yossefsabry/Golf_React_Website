@@ -1,0 +1,39 @@
+.membership {
+    padding: 2rem var(--main-padding-container);
+}
+
+table {
+    border-radius: 40px;
+    overflow: scroll;
+    scroll-snap-type: mandatory;
+}
+
+table th {
+    padding: 20px;
+    background-color: var(--second-bg);
+    color: white;
+}
+
+@media (max-width: 776px) {
+    table th {
+        padding: 0;
+        margin: 0;
+    }
+}
+
+@media (max-width: 1015px) {
+    table th {
+        padding: 20px 40px;
+    }
+}
+
+table td {
+    margin: auto;
+    padding: 20px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.bg-content-member {
+    background-color: var(--second-bg);
+}

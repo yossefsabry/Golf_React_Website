@@ -1,0 +1,57 @@
+.hero {
+    width: 100%;
+    background-image: url("../../images/anna-rosar-ZxFyVBHMK-c-unsplash.jpg");
+    background-size: cover;
+    height: calc(100vh);
+    position: relative;
+    overflow: hidden;
+}
+
+.hero::after {
+    content: '';
+    position: absolute;
+    background: rgba(0, 0, 0, 0) linear-gradient(rgba(39, 48, 83, 0.01) 0%, rgb(39, 48, 83) 100%) repeat scroll 0% 0%;
+    width: 100%;
+    height: 100%;
+}
+
+.img-one {
+    transform: rotate(180deg);
+    position: absolute;
+    width: 100%;
+    top: 43px;
+    left: 0;
+    background-size: cover;
+    z-index: 3;
+}
+
+.img-two {
+    position: absolute;
+    width: 100%;
+    bottom: -60px;
+    left: 0;
+    background-size: cover;
+    z-index: 3;
+    fill: red;
+}
+
+@media (max-width: 999px) {
+    .img-two {
+        bottom: 0px;
+    }
+
+    .img-one {
+        top: 68px;
+    }
+}
+
+.hero-content {
+    z-index: 4;
+    position: relative;
+    top: 50%;
+    padding: 0 var(--main-padding-container);
+}
+
+.title-change {
+    color: var(--soft-color);
+}

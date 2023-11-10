@@ -1,0 +1,21 @@
+button {
+    color: var(--soft-color);
+    border-color: var(--soft-color);
+    transition: var(--main-transition);
+}
+
+button:hover {
+    color: var(--color-white);
+    border-color: transparent;
+    background-color: var(--soft-color);
+}
+
+.btn2 {
+    background-color: var(--soft-color);
+    color: var(--color-white);
+    transition: var(--main-transition);
+}
+
+.btn2:hover {
+    background-color: var(--hover-color);
+}

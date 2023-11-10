@@ -1,0 +1,15 @@
+.details-section {
+    padding: 2rem var(--main-padding-container);
+}
+
+.image-details {
+    width: 100%;
+    max-width: 80%;
+}
+
+@media (max-width: 999px) {
+    .image-details {
+        width: 100%;
+        max-width: 95%;
+    }
+}

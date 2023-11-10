@@ -1,0 +1,6 @@
+.events-coming .wrapper {
+    padding: 1rem var(--main-padding-container);
+}
+.events-coming {
+    background-color: var(--soft-pink);
+}
